@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>LabLinks</display-name>
+  <welcome-file-list>
+    <welcome-file>Microbial.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Microbial</servlet-name>
+    <servlet-class>Microbial</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Microbial</servlet-name>
+    <url-pattern>/Microbial</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Torocell</servlet-name>
+    <servlet-class>Torocell</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Torocell</servlet-name>
+    <url-pattern>/Torocell</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SysncDb</servlet-name>
+    <servlet-class>SysncDb</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SysncDb</servlet-name>
+    <url-pattern>/SysncDb</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UpdateRecord</servlet-name>
+    <servlet-class>UpdateRecord</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateRecord</servlet-name>
+    <url-pattern>/UpdateRecord</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewRec</servlet-name>
+    <servlet-class>ViewRec</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewRec</servlet-name>
+    <url-pattern>/ViewRec</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MicrobialUpdate</servlet-name>
+    <servlet-class>MicrobialUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MicrobialUpdate</servlet-name>
+    <url-pattern>/MicrobialUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PasswordValidation</servlet-name>
+    <servlet-class>PasswordValidation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PasswordValidation</servlet-name>
+    <url-pattern>/PasswordValidation</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>
